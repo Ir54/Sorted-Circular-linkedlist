@@ -122,24 +122,23 @@ public:
     }
 };
 
-// ---------------- MAIN ----------------
 int main() {
     CircularList<int> CL;
 
-    CL.insert(1000);
-    CL.insert(50);
-    CL.insert(600);
-    CL.insert(600);
-    CL.insert(80);
-    CL.insert(90);
+    CL.insert(30);
+    CL.insert(5);
+    CL.insert(70);
+    CL.insert(25);
     CL.insert(10);
+    CL.insert(90);
+    CL.insert(15);
 
     cout << "\nYou have inserted the following data (sorted):\n";
     CL.print();
 
-    CL.deletenode(10);
-    CL.deletenode(600);
-    CL.deletenode(1000);
+    CL.deletenode(90);
+    CL.deletenode(5);
+    CL.deletenode(75);
 
     cout << "\nAfter deleting some data:\n";
     CL.print();
