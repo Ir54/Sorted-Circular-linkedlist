@@ -138,7 +138,7 @@ int main() {
 
     CL.deletenode(90);
     CL.deletenode(5);
-    CL.deletenode(75);
+    CL.deletenode(70);
 
     cout << "\nAfter deleting some data:\n";
     CL.print();
